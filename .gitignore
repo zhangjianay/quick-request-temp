@@ -44,3 +44,4 @@ PluginInfoUtil.java
 
 node_modules/
 dist
+/out/
