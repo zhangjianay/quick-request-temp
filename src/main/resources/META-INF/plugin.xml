@@ -4,6 +4,7 @@
     <vendor email="384448255@qq.com">zjay</vendor>
 
     <description><![CDATA[
+        <p>The request is so simple. With it, you can abandon Postman. It has features such as easy debugging, saving requests, and simple configuration. Enjoy it</p>
          <ul>
             <li>1、You can choose whether to display the complete url（Full url：http(s)://...）</li>
             <li>2、Add the Focus location button to locate the method line corresponding to the current request url</li>
@@ -18,7 +19,7 @@
     </description>
 
     <!--    2019.2-->
-    <idea-version since-build="203.5981.155"/>
+    <idea-version since-build="212.4746.92" until-build="223.8836.41"/>
     <!--    <idea-version since-build="192"/>-->
 
     <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
