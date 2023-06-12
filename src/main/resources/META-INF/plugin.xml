@@ -61,15 +61,6 @@
 
         <postStartupActivity implementation="io.github.zjay.plugin.fastrequest.update.WhatsNewActivity"/>
 
-        <!--        <iw.actionProvider implementation="action.io.github.zjay.plugin.fastrequest.FormatActionProvider"/>-->
-
-        <!--        <editorFloatingToolbarProvider-->
-        <!--                order="after DefaultFloatingToolbarProvider"-->
-        <!--                implementation="io.github.zjay.plugin.fastrequest.editor.FastRequestFloatingToolbarProvider"-->
-        <!--                id="fastRequestEditorFloatingToolbarProvider"/>-->
-
-<!--        <errorHandler-->
-<!--                implementation="io.github.zjay.plugin.fastrequest.diagnostic.FastRequestErrorReportSubmitter"/>-->
     </extensions>
 
     <actions>
@@ -99,13 +90,6 @@
             </action>
         </group>
 
-<!--        <group id="fastRequest.editor.floatGroup">-->
-<!--            <action id="fastRequest.format" class="action.io.github.zjay.plugin.fastrequest.FormatAction">-->
-<!--                <add-to-group group-id="EditorContextBarMenu" anchor="last"/>-->
-<!--            </action>-->
-
-<!--        </group>-->
-
         <action id="fastRequestFree.gotoFastRequest"
                 class="io.github.zjay.plugin.fastrequest.action.GotoFastRequestAction">
             <keyboard-shortcut first-keystroke="alt F" keymap="$default"/>
@@ -121,8 +105,6 @@
     <extensions defaultExtensionNs="com.intellij">
         <searchEverywhereContributor
                 implementation="io.github.zjay.plugin.fastrequest.contributor.FastRequestGotoContributor$Factory"/>
-<!--        <searchEverywhereResultsEqualityProvider-->
-<!--                implementation="io.github.zjay.plugin.fastrequest.contributor.FastRequestEqualityProvider"/>-->
     </extensions>
 
     <extensions defaultExtensionNs="QuickRequest">
