@@ -29,6 +29,51 @@ intellij {
 patchPluginXml {
     changeNotes """
 
+    <h3>v2023.10.9</h3>
+    <p>中文</p>
+    <ul>
+        <li>兼容性修改</li>
+        <li>支持Copy Curl</li>
+    </ul>
+    <p>English</p>
+    <ul>
+        <li>Compatibility modification</li>
+        <li>Support Copy Curl</li>
+    </ul>
+    
+    <h3>v2023.9.22</h3>
+    <p>中文</p>
+    <ul>
+        <li>修复存在请求体的bug：提示枚举不存在的问题</li>
+    </ul>
+    <p>English</p>
+    <ul>
+        <li>Fix bug with request body: prompt enumeration does not exist</li>
+    </ul>
+    
+    <h3>v2023.9.21</h3>
+    <p>中文</p>
+    <ul>
+        <li>请求和停止按钮从顶部移到url框后面，移除自动补全的勾选按钮，顶部新增自动补全的按钮</li>
+        <li>Tab页面背景优化</li>
+    </ul>
+    <p>English</p>
+    <ul>
+        <li>Move the send and stop buttons from the top to the back of the URL box, remove the check button for automatic completion, and add an automatic completion button at the top</li>
+        <li>Tab page background optimization</li>
+    </ul>
+    
+    <h3>v2023.9.18</h3>
+    <p>中文</p>
+    <ul>
+        <li>(全局/局部)请求头编辑支持自动补全功能，但是不支持级联</li>
+        <li>部分编辑器优化</li>
+    </ul>
+    <p>English</p>
+    <ul>
+        <li>(Global/Local) Request header editing supports automatic completion function, but does not support cascading</li>
+        <li>Partial editor optimization</li>
+    </ul>
     <h3>v2023.9.7</h3>
     <p>中文</p>
     <ul>
