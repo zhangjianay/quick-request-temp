@@ -28,6 +28,57 @@ intellij {
 }
 patchPluginXml {
     changeNotes """
+    <h3>v2024.1.5</h3>
+    <p>中文</p>
+    <ul>
+        <li>支持JSON5</li>
+        <li>修复无Kotlin插件时的问题</li>
+    </ul>
+    <p>English</p>
+    <ul>
+        <li>support JSON5</li>
+        <li>Fix bugs without Kotlin plugin</li>
+    </ul>
+    <h3>v2024.1.1</h3>
+    <p>中文</p>
+    <ul>
+        <li>修复Response->Pretty显示的位置问题</li>
+        <li>支持php的Laravel框架</li>
+        <li>优化一些页面显示</li>
+    </ul>
+    <p>English</p>
+    <ul>
+        <li>Fix the position issue displayed by Response ->Pretty</li>
+        <li>support the Laravel framework for PHP</li>
+        <li>Optimize some page displays</li>
+    </ul>
+    <h3>v2023.12.22</h3>
+    <p>中文</p>
+    <ul>
+        <li>兼容性修改</li>
+    </ul>
+    <p>English</p>
+    <ul>
+        <li>Compatibility modification</li>
+    </ul>
+    <h3>v2023.12.18</h3>
+    <p>中文</p>
+    <ul>
+        <li>支持Python下Flask框架的请求生成</li>
+    </ul>
+    <p>English</p>
+    <ul>
+        <li>Support request generation for Flask framework in Python</li>
+    </ul>
+    <h3>v2023.12.13</h3>
+    <p>中文</p>
+    <ul>
+        <li>bug修复</li>
+    </ul>
+    <p>English</p>
+    <ul>
+        <li>Fix bugs</li>
+    </ul>
     <h3>v2023.11.24</h3>
     <p>中文</p>
     <ul>
