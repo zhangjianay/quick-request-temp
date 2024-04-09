@@ -28,6 +28,85 @@ intellij {
 }
 patchPluginXml {
     changeNotes """
+    <h3>v2024.3.1</h3>
+    <p>中文</p>
+    <ul>
+        <li>修复bug</li>
+        <li>兼容性修改</li>
+    </ul>
+    <p>English</p>
+    <ul>
+        <li>Fix bugs</li>
+        <li>Compatibility modification</li>
+    </ul>
+    <h3>v2024.2.20</h3>
+    <p>中文</p>
+    <ul>
+        <li>Rust框架支持API搜索</li>
+        <li>兼容性修改</li>
+    </ul>
+    <p>English</p>
+    <ul>
+        <li>The Rust frameworks support API search</li>
+        <li>Compatibility modification</li>
+    </ul>
+    <h3>v2024.2.3</h3>
+    <p>中文</p>
+    <ul>
+        <li>支持actix-web(Rust)、Rocket(Rust)框架</li>
+        <li>兼容性修改</li>
+    </ul>
+    <p>English</p>
+    <ul>
+        <li>Supports actix-web(Rust) and Rocket(Rust) frameworks</li>
+        <li>Compatibility modification</li>
+    </ul>
+    <h3>v2024.1.26</h3>
+    <p>中文</p>
+    <ul>
+        <li>支持Rails(Ruby)框架</li>
+        <li>修复bug</li>
+        <li>兼容性修改</li>
+    </ul>
+    <p>English</p>
+    <ul>
+        <li>Support for rails (Ruby) framework</li>
+        <li>Fix bugs</li>
+        <li>Compatibility modification</li>
+    </ul>
+    <h3>v2024.1.19</h3>
+    <p>中文</p>
+    <ul>
+        <li>修复gin框架下，由于递归带来的apis加载问题</li>
+        <li>修复Navigate下包名类名同级显示问题</li>
+        <li>兼容性修改</li>
+    </ul>
+    <p>English</p>
+    <ul>
+        <li>Fix apis loading issue caused by recursion in the gin framework</li>
+        <li>Compatibility modification</li>
+        <li>Fix the issue of displaying the same level of package name and class name in Navigator</li>
+    </ul>
+    <h3>v2024.1.11.1</h3>
+    <p>中文</p>
+    <ul>
+        <li>bug修复</li>
+    </ul>
+    <p>English</p>
+    <ul>
+        <li>Fix bugs</li>
+    </ul>
+    <h3>v2024.1.11</h3>
+    <p>中文</p>
+    <ul>
+        <li>Api搜索(alt+F)及Navigate现已放开，但是目前仅支持Laravel(PHP)和Gin(go)框架</li>
+        <li>由于不同语言不同框架的请求参数获取方式有很大区别，本人也能力有限，因此向大家征求意见，请将你常用的框架和请求参数生成建议发送至我的邮箱或者提到Github</li>
+    </ul>
+    <p>English</p>
+    <ul>
+        <li>Api search (alt+F) and Navigator have now been released, but currently only support the Laravel (PHP) and Gin (go) frameworks</li>
+        <li>Due to the significant differences in the way request parameters are obtained in different languages and frameworks, and my limited ability, I would like to seek your opinions. Please send me your suggestions on commonly used frameworks and request parameter generation to my email or mention Github</li>
+    </ul>
     <h3>v2024.1.5</h3>
     <p>中文</p>
     <ul>
