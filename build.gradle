@@ -28,6 +28,15 @@ intellij {
 }
 patchPluginXml {
     changeNotes """
+    <h3>v2024.4.10</h3>
+    <p>中文</p>
+    <ul>
+        <li>兼容JetBrains产品最新版</li>
+    </ul>
+    <p>English</p>
+    <ul>
+        <li>Compatible with the latest version of JetBrains products</li>
+    </ul>
     <h3>v2024.3.1</h3>
     <p>中文</p>
     <ul>
